@@ -1,0 +1,365 @@
+:root {
+    --metal-white: #FBF8F5;
+    --gray: #EBEBEB;
+    --charcoal: #2A2829;
+    --dark-gray: #3D3A37;
+    --brown: #796655;
+    --tobacoo: #665D4E;
+    --tan: #DFD2BE;
+    --red: #C02131;
+    --gun-metal: #47423E;
+    --black: #000;
+    --white:#fff;
+    --linen: #F6F1EA;
+    --cream: #FFF6E8;
+    --transition: all .2s cubic-bezier(0.4, 0, 1, 1);
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/CormorantGaramond-Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../font/CormorantGaramond-Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../font/CormorantGaramond-Light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../font/CormorantGaramond-LightItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../font/CormorantGaramond-Medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cormorant Garamond Medium';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../font/CormorantGaramond-MediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../font/CormorantGaramond-SemiBold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../font/CormorantGaramond-SemiBoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/CormorantGaramond-Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../font/CormorantGaramond-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/CormorantInfant-Bold.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Cormorant Infant';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../font/CormorantInfant-BoldItalic.woff') format('woff');
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--charcoal); 
+    background-color: var(--metal-white);
+}
+body * {
+    font-weight: inherit;
+}
+.post, .page {
+    margin: 0;
+}
+strong {
+    font-weight: 700;
+}
+
+/* font-family: "Raleway", sans-serif;
+font-family: "Cormorant Garamond", serif; */
+
+.container {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.container-bg {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.container-sm{
+    max-width: 1137px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.container-inner {
+    padding: 3rem 0 4rem;
+}
+
+
+/* Heading */
+h1 {
+    font-size: 70px;
+    line-height: 68px;
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 60px;
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--charcoal);
+}
+
+h3 {
+    font-size: 54px;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0;
+    font-family: "Cormorant Infant", serif;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: var(--black);
+}
+
+h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    color: var(--gun-metal);
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 2px;
+    font-family: "Raleway", sans-serif;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    color: var(--gun-metal);
+}
+
+/* Paragraph */
+p , li, ul {
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--black);
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    margin-top: 0;
+}
+div {
+    font-size: 18px;
+}
+
+
+a {
+    color: var(--red);
+}
+a:hover, a:focus {
+    color: var(--red);
+}
+
+small, .small {
+    font-size: 12px;
+    line-height: 1.1;
+    color: var(--charcoal);
+}
+.txt-center {
+    text-align: center;
+}
+
+
+/* Button */
+.btn {
+    background-color: transparent;
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.5;
+    color: var(--black);
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 4.5px 20px;
+    border: 2px solid var(--black);
+    min-width: 266px;
+    display: block;
+    width: fit-content;
+    text-decoration: unset;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: var(--black);
+    color: var(--metal-white);
+}
+
+.btn.white {
+    color: var(--white) !important;
+    border-color: var(--white);
+}
+
+.btn.white:hover {
+    background-color: var(--white);
+    color: var(--black) !important;
+}
+
+
+/* Button styles ends here */
+
+
+
+
+.wp-caption {
+    width: 100% !important;
+}
+.wp-caption .wp-caption-text {
+    color: var(--charcoal);
+    margin: 0 auto !important;
+}
+
+.error-page-content p {
+    margin: 10px 0 20px;
+}
+
+
+/* responsive */
+@media only screen and (max-width: 998px) {
+    .btn {
+        font-size: 22px;
+        min-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container, .container-bg  {
+        padding: 0 20px;
+    }
+
+    .wp-caption .wp-caption-text {
+        font-size: 12px;
+    }
+
+    .btn {
+        min-width: 160px;
+    }
+
+
+    /* Font */
+    h1 {
+        font-size: 45px;
+        line-height: 1;
+    }
+    
+    h2 {
+        font-size: 40px;
+        line-height: 1;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+    
+    h5 {
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: .5px;
+    }
+    
+    h6 {
+        font-size: 16px;
+    }
+    
+    p, ul , li , div {
+        font-size: 16px;
+    }
+
+
+
+}

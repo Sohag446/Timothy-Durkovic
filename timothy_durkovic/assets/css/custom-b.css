@@ -1,0 +1,427 @@
+/* Banner Aria design  */
+.banner{
+    line-height: 0;
+}
+.banner img{
+    width: 100%;
+}
+/* about_artist Aria design  */
+.about_artist{
+    background-color: var(--charcoal);
+}
+.about_artist_body{
+    max-width: 934px;
+    width: 100%;
+    margin: auto;
+    padding: 144px 0 138px;
+}
+.about_artist_body h1{
+    color: var(--linen);
+    text-align: center;
+    /* font-family: "Cormorant Garamond"; */
+    padding-bottom: 31px;
+}
+
+.about_artist_body p{
+    color: var(--cream);
+    text-align: center;
+    padding-bottom: 60px;
+    margin: 0;
+}
+.artist_button{
+    max-width: max-content;
+    margin: auto;
+}
+.artist_button a{
+    text-align: center;
+}
+
+/* upcoming_concerts Aria design  */
+.upcoming_concerts{
+    background-color: var(--dark-gray);
+    padding: 90px 0 68px;
+}
+.people_saying .container {
+    max-width: 1480px;
+    width: 100%;
+    margin: auto;
+}
+.upcoming_concerts_body{
+    display: flex;
+    align-items: center;
+    gap: 169px;
+}
+.concert_about_btn a{
+    text-align: center;
+}
+.concert_about{
+    max-width: 410px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+.concert_about_header{
+    padding: 0 5px;
+}
+.concert_about_header h2{
+    color: var(--tan);
+    text-align: center;
+}
+.concert_about_btn{
+    max-width: max-content;
+    margin: auto;
+}
+.concert{
+    /* background-color: var(--white); */
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 20px; */
+    max-width: 618px;
+    width: 100%;
+}
+.concert:nth-child(3), .concert:nth-child(4){
+    margin-top: 20px;
+}
+.concert_inner{
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+}
+.concert_date{
+    background-color: var(--white);
+    padding: 20px 36px 30px;
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.concert_date h3{
+    font-family: "Cormorant Infant";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.concert_date p{
+    margin: 0;
+}
+p.concert_date_month {
+    text-transform: uppercase;
+    color: var(--charcoal);
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+.concert_info{
+    /* background: var(--metal-white);
+    background: var(--metal-white); */
+    padding: 34px 56px 36px 47px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.categories h4 {
+    color: var(--brown);
+    /* line-height: 28px; */
+    margin: 0;
+    padding: 6.5px 0;
+    padding-left: 36px;
+}
+
+/*  */
+.message_name {
+    padding: 20px 0;
+    padding-top: 60px;
+}
+.concert_venue h5 {
+    text-transform: uppercase;
+    /* color: var(--tobacoo); */
+    line-height: 24px;
+    letter-spacing: 1.2px;
+}
+.concert_city h6{
+    color: var(--tobacoo);
+    font-weight: 400;
+    line-height: 32px;
+}
+.message_info h4{
+    line-height: normal;
+    color: var(--charcoal);
+}
+
+.people_saying{
+    background: var(--metal-white);
+    padding: 114px 0 133px;
+}
+.people_saying_header{
+    max-width: 902px;
+    width: 100%;
+    margin: auto;
+}
+.people_saying_header h2{
+    color: var(--charcoal);
+    text-align: center;
+    padding-bottom: 0px;
+    /* font-family: "Cormorant", serif; */
+
+}
+.people_saying_message_body{
+    position: relative;
+    padding-top: 60px;
+}
+.people_saying_message{
+    text-align: center;
+}
+.first_message_quotation{
+    color: var(--red);
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+p.first_message_quotation {
+    margin: 0;
+    height: 56px;
+}
+.people_saying_message_body .slick-slide {
+    margin: 0;
+}
+
+.people_saying_message_body .slick-prev {
+    left: -25px;
+    position: absolute;
+    top: 104%;
+    left: 46%;
+    z-index: 999;
+}
+.people_saying_message_body button.slick-prev.slick-arrow::before {
+    content: '';
+    position: absolute;
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    z-index: 999;
+    background-image: url(../img/left-arrow.svg);
+    width: 35px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.people_saying_message_body .slick-next {
+    position: absolute;
+    top: 104%;
+    left: 50%;
+    z-index: 999;
+}
+.people_saying_message_body button.slick-next.slick-arrow::before{
+    content: '';
+    position: absolute;
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    z-index: 999;
+    background-image: url(../img/left-arrow.svg);
+    width: 35px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.people_saying_message_body .people_saying_message {
+    border: none;
+    transition: border 0.3s ease;
+}
+
+.people_saying_message{
+    padding: 0 56px;
+}
+.people_saying_message_body .slick-track {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.people_saying_message_body .slick-current.slick-active + .slick-slide {
+    border-left: 2px solid var(--tan);
+    border-right: 2px solid var(--tan);
+    padding: 0 53px;
+  }
+
+.people_saying_message_body  .slick-dots{
+    display: none !important;
+}
+.message_name h5{
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: var(--charcoal);
+}
+
+.people_saying_message_body .slick-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.people_saying_message_body .slick-track {
+    display: flex;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 344px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.people_saying_message_body .slick-slide > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 344px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/* REsponsive Design  */
+@media only screen and (max-width: 1024px) {
+    .about_artist_body{
+        padding: 90px 0;
+    }
+    .about_artist_body p {
+        padding-bottom: 35px;
+    }
+/* upcoming_concerts */
+.upcoming_concerts {
+    padding: 90px 0;
+}
+.upcoming_concerts_body {
+    gap: 0px;
+    justify-content: space-between;
+}
+.people_saying_message_body .slick-current.slick-active + .slick-slide {
+    border-left: none;
+    border-right: none;
+}
+.people_saying_message.slick-slide {
+    max-width: unset;
+}
+.people_saying_message_body .slick-slide > div{
+    max-width: unset;
+}
+.people_saying_message {
+    padding: 0 30px;
+}
+.people_saying_message_body .slick-current.slick-active + .slick-slide {
+    padding: 0 30px;
+}
+.people_saying_message_body .slick-prev {
+    left: 43%;
+    top: 102%;
+}
+.people_saying_message_body .slick-next {
+    top: 102%;
+    left: 51%;
+}
+
+/* people_saying */
+.people_saying_message_body {
+    padding-top: 30px;
+}
+.people_saying {
+    padding: 90px 0;
+}
+.message_name {
+    padding-top: 30px;
+}
+.people_saying_message_body .slick-prev {
+    top: 100%;
+}
+.people_saying_message_body .slick-next {
+    top: 100%;
+}
+
+}
+
+@media only screen and (max-width: 998px) {
+    .upcoming_concerts_body {
+        flex-direction: column;
+        gap: 40px;  
+    }
+
+    .concert_date {
+        padding: 18px;
+    }
+    .concert_info {
+        padding: 10px;
+    }
+    .categories h4 {
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* header menu  */
+    #masthead #site-navigation a {
+        font-size: 22px;
+    }
+
+
+    .about_artist_body{
+        padding: 60px 0;
+    }
+    .about_artist_body p {
+        padding-bottom: 25px;
+    }
+
+    /* upcoming_concerts */
+    .upcoming_concerts {
+        padding: 60px 0;
+    }
+    .concerts {
+        max-width: 1000px;
+        width: 100%;
+    }
+    .concert {
+        max-width: 1000px;
+        width: 100%;
+    }
+    .categories h4 {
+        padding-left: 10px;
+    }
+
+    /* people_saying */
+    
+    
+    .people_saying_message_body .slick-prev {
+        left: 38%;
+    }
+    .people_saying_message_body .slick-next {
+        left: 53%;
+    }
+
+    .people_saying_message_body {
+        padding-top: 15px;
+    }
+    .people_saying {
+        padding: 85px 0;
+
+    }
+    .message_name {
+        padding-top: 20px;
+    }
+    
+    }
+
